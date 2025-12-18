@@ -3,7 +3,7 @@ import { action, KeyDownEvent, SingletonAction, WillAppearEvent } from "@elgato/
 /**
  * An example action class that displays a count that increments by one each time the button is pressed.
  */
-@action({ UUID: "dev.codingcat.streamdeck-lifx.increment" })
+@action({ UUID: "dev.codingcat.streamdeck.increment" })
 export class IncrementCounter extends SingletonAction<CounterSettings> {
 	/**
 	 * The {@link SingletonAction.onWillAppear} event is useful for setting the visual representation of an action when it becomes visible. This could be due to the Stream Deck first
